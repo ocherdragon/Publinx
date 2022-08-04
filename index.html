@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <style>
+        body {
+            margin: 0;
+            
+        }
+
+        .banner {
+            background-image: url("img/background.jpg");
+            background-size: cover;
+            height: 50rem;
+            width: 100%;
+        }
+        .primary {
+            color: #299652;
+        }
+        .secondary {
+            color: #77CB3B;
+        }
+        
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+    </style>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Publinx</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#servizi">I nostri servizi</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#contattaci">Contattaci</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="px-4 pt-5 my-5 text-center">
+            <div class="overflow-hidden">
+              <div class="container px-5">
+                <img src="img/Logo Publinx.png" class="img-fluid rounded-3 mb-4" alt="Example image"  loading="lazy">
+              </div>
+            </div>
+            <h2 class="display-5">By changing nothing, nothing changes</h2>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Abbiamo come obbiettivo aiutare aziende e liberi professionisti ad acquisire nuovi clienti in modo totalmente organico attraverso siti web e social network.</p>
+            </div>
+        </section>
+        <div class="b-example-divider"></div>
+        <section id="servizi" class="container mt-5 mb-5">
+            <h1 class="primary">I nostri servizi</h1>
+            <div class="row row-cols-1 row-cols-lg-3 g-2 g-lg-3 mt-3">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                        <h3 class="card-title">Reels/Tik Tok/Youtube Shorts</h3>
+                        <p class="card-text">Queste piattaforme premiano sempre di più i creatori di video brevi e con le giuste strategie e conoscenze dell’algoritmo sono un ottimo modo per farsi notare da potenziali clienti.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                        <h3 class="card-title">Sito Web</h3>
+                        <p class="card-text">Sito personalizzati per la tua attività con SEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">Google My Business</h5>
+                        <p class="card-text">Fatti trovare su Google con un Profilo dell'attività. Converti in nuovi clienti chi ti trova su Ricerca e Maps.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-2 g-lg-3 mt-3">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">Corsi di formazione</h5>
+                        <p class="card-text">Vuoi imparare a gestire in autonomia i principali Social Network? Scegli il nostro corso di formazione.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5 class="card-title">Consulenza</h5>
+                        <p class="card-text">Vuoi scalare il Tuo business e non sai da dove partire? Vorresti portare la tua attività online? Allora hai trovato quello che fa per te! Ti offriamo tutta la nostra esperienza per aiutarti a trovare nuovi clienti con l’online.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="b-example-divider"></div>
+        <section id="contattaci" class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+              <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 mb-3">Contattaci</h1>
+                <p class="col-lg-10 fs-4">Scrivi la tua mail ed un messaggio per essere ricontattato</p>
+              </div>
+              <div class="col-md-10 mx-auto col-lg-5">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+              </div>
+            </div>
+        </section>
+        <footer class="container">
+            <p class="float-end"><a href="#">Back to top</a></p>
+            <p>© 2017–2021 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>
+    </main>
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
